@@ -51,6 +51,7 @@ public class Main {
             scanner.nextLine();
 
             String continuar = scanner.nextLine();
+            continuar = continuar.toLowerCase();
 
             if (!continuar.equals("sim")) {
                 loop = false;
